@@ -1,6 +1,14 @@
 import { Component } from "../core/imub";
 
+interface State {
+  [key: string]: unknown
+  menus: {
+    name: string
+    href: string
+  }[]
+}
 export default class TheHeader extends Component {
+  public state!: State
   constructor() {
     super({
       tagName: 'header',
