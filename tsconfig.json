@@ -3,6 +3,7 @@
     "target": "ES2015",
     "module": "ESNext",
     "moduleResolution": "Node",
+    "skipLibCheck": true,
     "esModuleInterop": true,
     "lib": ["ESNext", "DOM"],
     "strict": true
